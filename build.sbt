@@ -8,8 +8,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick" % "3.3.2",
   "com.typesafe.slick" %% "slick-codegen" % "3.3.2",
   "com.typesafe.slick" %% "slick-hikaricp" % "3.3.2",
-  "mysql" % "mysql-connector-java" % "8.0.18",
-  "org.slf4j" % "slf4j-nop" % "1.7.26"
+  "mysql" % "mysql-connector-java" % "8.0.19",
+  "org.slf4j" % "slf4j-nop" % "1.7.30"
 )
 
 lazy val schemaCodeGeneration = taskKey[Unit]("generate schema code")
